@@ -16,6 +16,7 @@ module.exports = {
     context: 'readonly',
   },
   parserOptions: {
+    parser: '@babel/eslint-parser',
     ecmaFeatures: {
       jsx: true,
     },
